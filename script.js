@@ -31,3 +31,13 @@ iframe.style.border = "none";
 iframe.src = url;
 win.document.body.appendChild(iframe);
 }
+function play_eaglecraft(){
+    var win = window.open('about:blank');
+    var url = "https://eaglercraft.com/"; // Replace with your game URL
+    var iframe = win.document.createElement('iframe');
+    iframe.style.width = "100%";
+    iframe.style.height = "100%";
+    iframe.style.border = "none";
+    iframe.src = url;
+    win.document.body.appendChild(iframe);
+}
